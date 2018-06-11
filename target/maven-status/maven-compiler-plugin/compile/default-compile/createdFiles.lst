@@ -1,0 +1,12 @@
+com\alex\rest\resources\ProductResource.class
+com\alex\rest\core\Price.class
+com\alex\rest\RestApplication.class
+com\alex\rest\core\Product.class
+com\alex\rest\api\Saying.class
+com\alex\rest\db\ProductDao.class
+com\alex\rest\RestApplication$2.class
+com\alex\rest\RestConfiguration.class
+com\alex\rest\db\PriceDao.class
+com\alex\rest\resources\PriceResource.class
+com\alex\rest\RestApplication$1.class
+com\alex\rest\resources\HelloWorldResource.class
