@@ -1,7 +1,7 @@
 package com.alex.rest.resources;
 
 import com.alex.rest.domen.Product;
-import com.alex.rest.service.ProductService;
+import com.alex.rest.service.EntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,17 +9,16 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.Collection;
-import java.util.List;
 
 @Path("/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class ProductResource {
 
-    private final ProductService productService;
+    private EntityService<Product> productService;
 
     @Autowired
-    public ProductResource(ProductService productService) {
+    public ProductResource(EntityService<Product> productService) {
         this.productService = productService;
     }
 
@@ -32,7 +31,7 @@ public class ProductResource {
     @GET
     @Path("/{id}")
     public Product getProduct(@PathParam("id") Long id) {
-        return findSafely(id);
+        return productService.findById(id);
     }
 
     // Create/update
@@ -40,10 +39,6 @@ public class ProductResource {
     @Consumes(MediaType.APPLICATION_JSON)
     public void createProduct(Product product) {
         productService.add(product);
-    }
-
-    private Product findSafely(Long productId) {
-        return productService.findById(productId);
     }
 
     @DELETE

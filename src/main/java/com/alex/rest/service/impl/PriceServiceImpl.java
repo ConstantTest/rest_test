@@ -2,17 +2,17 @@ package com.alex.rest.service.impl;
 
 import com.alex.rest.domen.Price;
 import com.alex.rest.repository.payment.PriceRepository;
-import com.alex.rest.service.PriceService;
+import com.alex.rest.service.EntityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
+import java.util.Optional;
+
 
 @Service
-public class PriceServiceImpl implements PriceService {
+public class PriceServiceImpl implements EntityService<Price> {
 
     private PriceRepository priceRepository;
 
@@ -27,17 +27,10 @@ public class PriceServiceImpl implements PriceService {
         priceRepository.save(price);
     }
 
-    @Override
     @Transactional(readOnly = true)
-    public Collection<Price> findAll(Long productId) {
-        List<Price> prices = new ArrayList<>();
-        List<Price> allPrices = (List<Price>) priceRepository.findAll();
-//        for(Price p: allPrices) {//todo
-//            if(p.getProductId().equals(productId)) {
-//                prices.add(p);
-//            }
-//        }
-        return prices;
+    @Override
+    public Collection<Price> findAll() {
+        return priceRepository.findAll();
     }
 
     @Override

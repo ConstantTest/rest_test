@@ -1,20 +1,17 @@
 package com.alex.rest.service.impl;
 
 import com.alex.rest.domen.Product;
-import com.alex.rest.repository.Repository;
-import com.alex.rest.repository.payment.PriceRepository;
 import com.alex.rest.repository.payment.ProductRepository;
-import com.alex.rest.service.ProductService;
+import com.alex.rest.service.EntityService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
-import java.util.List;
 
 @Service
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl implements EntityService<Product> {
 
     private ProductRepository repository;
 
@@ -35,6 +32,7 @@ public class ProductServiceImpl implements ProductService {
         return repository.findAll();
     }
 
+    @Transactional(readOnly = true)
     @Override
     public Product findById(Long id) {
         return repository.findById(id);

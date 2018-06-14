@@ -3,68 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="cf481db2-738f-4cbe-8a97-5abaa32ea11b" name="Default" comment="wip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/api/Saying.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/HelloWorldResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/EntityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/RestApplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/RestConfiguration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/Saying.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/class-use/Saying.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/api/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/class-use/RestApplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/class-use/RestConfiguration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/HelloWorldResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/PriceResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/ProductResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/class-use/HelloWorldResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/class-use/PriceResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/class-use/ProductResource.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/alex/rest/resources/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/RestConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/RestConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-rest-api-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rest-api-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rest-api-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rest-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/api/Saying.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/HelloWorldResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/PriceResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/PriceResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/ProductResource.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,6 +76,12 @@
         <item name="alex: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="products: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="alex@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="alex_temp: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -123,10 +90,30 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="57">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriceResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,8 +122,8 @@
       <file leaf-file-name="RestApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="57">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,80 +131,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="27" column="88" lean-forward="true" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/1.3.2/dropwizard-core-1.3.2-sources.jar!/io/dropwizard/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Price.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Price.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="289">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="216" column="18" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello.yml">
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.10.v20180503/jetty-util-9.4.10.v20180503-sources.jar!/org/eclipse/jetty/util/component/Container.java">
+      <file leaf-file-name="PriceServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextHandler.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.10.v20180503/jetty-server-9.4.10.v20180503-sources.jar!/org/eclipse/jetty/server/handler/ContextHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="612" column="39" selection-start-line="612" selection-start-column="39" selection-end-line="612" selection-end-column="39" />
+            <state relative-caret-position="415">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -275,26 +245,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PaymentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PriceRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/liquibase.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/Service.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/hello.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hello.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" />
       </list>
     </option>
   </component>
@@ -386,15 +356,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="domen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,16 +366,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
@@ -647,7 +598,7 @@
       <workItem from="1528822903474" duration="3247000" />
       <workItem from="1528870911094" duration="25357000" />
       <workItem from="1528907731619" duration="3885000" />
-      <workItem from="1528955600962" duration="16821000" />
+      <workItem from="1528955600962" duration="31504000" />
     </task>
     <servers />
   </component>
@@ -684,7 +635,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160472000" />
+    <option name="totallyTimeSpent" value="175155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,32 +648,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.48945615" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.5194229" />
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.8799172" weight="0.4216418" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.43550107" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.76026636" weight="0.2217484" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.76026636" weight="0.17270789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.31853497" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.8046615" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.7069922" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32297447" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32963374" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.57047725" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.2552719" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.800222" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6970033" />
       <window_info id="Persistence" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.45837957" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -733,6 +685,42 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" sideWeight="0.23973364" side_tool="true" weight="0.35394457" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Persistence" order="6" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.45837957" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.99667037" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31742507" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.5194229" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.7069922" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" sideWeight="0.23973364" side_tool="true" weight="0.35394457" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.43550107" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32963374" />
+      <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.8799172" weight="0.4216418" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.76026636" visible="true" weight="0.17270789" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.67591566" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -772,21 +760,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/cfg/OneToOneSecondPass.java</url>
-          <line>154</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -819,450 +793,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://MAVEN/com.alex.rest:rest-api:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.alex.rest:rest-api:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.alex.rest:rest-api:1.0-SNAPSHOT</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.guava:guava:jar:24.0-jre</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.guava:guava:jar:24.0-jre/org.checkerframework:checker-compat-qual:jar:2.0.0</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.guava:guava:jar:24.0-jre/com.google.errorprone:error_prone_annotations:jar:2.1.3</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.guava:guava:jar:24.0-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.guava:guava:jar:24.0-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/com.google.code.findbugs:jsr305:jar:3.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-util:jar:1.3.2/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jackson:jar:1.3.2/com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-validation:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-validation:jar:1.3.2/org.hibernate:hibernate-validator:jar:5.4.2.Final</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-validation:jar:1.3.2/org.hibernate:hibernate-validator:jar:5.4.2.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-validation:jar:1.3.2/org.hibernate:hibernate-validator:jar:5.4.2.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-validation:jar:1.3.2/org.glassfish:javax.el:jar:3.0.0</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-configuration:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-configuration:jar:1.3.2/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-configuration:jar:1.3.2/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5/org.yaml:snakeyaml:jar:1.18</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-configuration:jar:1.3.2/org.apache.commons:commons-lang3:jar:3.7</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-configuration:jar:1.3.2/org.apache.commons:commons-text:jar:1.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/io.dropwizard.metrics:metrics-logback:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-logging:jar:1.3.2/org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-metrics:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.jersey.core:jersey-common:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.jersey.core:jersey-common:jar:2.25.1/org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.jersey.core:jersey-common:jar:2.25.1/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.jersey.media:jersey-media-jaxb:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/javax.annotation:javax.annotation-api:jar:1.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.hk2:hk2-api:jar:2.5.0-b32</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.hk2:hk2-api:jar:2.5.0-b32/org.glassfish.hk2:hk2-utils:jar:2.5.0-b32</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.hk2:hk2-api:jar:2.5.0-b32/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.core:jersey-server:jar:2.25.1/org.glassfish.hk2:hk2-locator:jar:2.5.0-b32</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.ext:jersey-metainf-services:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.ext:jersey-bean-validation:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/io.dropwizard.metrics:metrics-jersey2:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.5/com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.5/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25.1/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-server:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-server:jar:9.4.10.v20180503/javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-server:jar:9.4.10.v20180503/org.eclipse.jetty:jetty-io:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-webapp:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-webapp:jar:9.4.10.v20180503/org.eclipse.jetty:jetty-xml:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jersey:jar:1.3.2/org.eclipse.jetty:jetty-continuation:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-servlets:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-servlets:jar:1.3.2/io.dropwizard.metrics:metrics-annotation:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2/io.dropwizard.metrics:metrics-jetty9:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2/org.eclipse.jetty:jetty-servlet:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2/org.eclipse.jetty:jetty-servlet:jar:9.4.10.v20180503/org.eclipse.jetty:jetty-security:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2/org.eclipse.jetty:jetty-servlets:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-jetty:jar:1.3.2/org.eclipse.jetty:jetty-http:jar:9.4.10.v20180503</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-lifecycle:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-core:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-jvm:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-jmx:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-servlets:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-servlets:jar:4.0.2/io.dropwizard.metrics:metrics-json:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-servlets:jar:4.0.2/com.papertrail:profiler:jar:1.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard.metrics:metrics-healthchecks:jar:4.0.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-request-logging:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/io.dropwizard:dropwizard-request-logging:jar:1.3.2/ch.qos.logback:logback-access:jar:1.2.3</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/net.sourceforge.argparse4j:argparse4j:jar:0.8.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-core:jar:1.3.2/org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/io.dropwizard:dropwizard-db:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/io.dropwizard:dropwizard-db:jar:1.3.2/org.apache.tomcat:tomcat-jdbc:jar:9.0.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/io.dropwizard:dropwizard-db:jar:1.3.2/org.apache.tomcat:tomcat-jdbc:jar:9.0.5/org.apache.tomcat:tomcat-juli:jar:9.0.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/com.fasterxml.jackson.datatype:jackson-datatype-hibernate5:jar:2.9.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/org.jadira.usertype:usertype.core:jar:7.0.0.CR1</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/org.jadira.usertype:usertype.core:jar:7.0.0.CR1/org.jadira.usertype:usertype.spi:jar:7.0.0.CR1</node>
-            <node x="" y="">io.dropwizard:dropwizard-hibernate:jar:1.3.2/org.hibernate:hibernate-core:jar:5.2.15.Final</node>
-            <node x="" y="">io.dropwizard:dropwizard-migrations:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-migrations:jar:1.3.2/org.liquibase:liquibase-core:jar:3.5.5</node>
-            <node x="" y="">io.dropwizard:dropwizard-migrations:jar:1.3.2/com.mattbertolini:liquibase-slf4j:jar:2.0.0</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.25.1/org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.25.1</node>
-            <node x="" y="">io.dropwizard:dropwizard-testing:jar:1.3.2/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.25.1/org.glassfish.jersey.core:jersey-client:jar:2.25.1</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.6.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.6.RELEASE/org.springframework:spring-jdbc:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.6.RELEASE/org.springframework:spring-tx:jar:4.2.4.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.javassist:javassist:jar:3.22.0-GA</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/net.bytebuddy:byte-buddy:jar:1.8.12</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.jboss:jandex:jar:2.0.3.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.3.Final</node>
-            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1</node>
-            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1/org.apache.commons:commons-pool2:jar:2.4.2</node>
-            <node x="" y="">org.apache.commons:commons-dbcp2:jar:2.1.1/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.9</node>
-            <node x="" y="">org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.9</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.6.1</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.6.1/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.6.1/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.mariadb.jdbc:mariadb-java-client:jar:2.2.5</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9760295167817185" x="737.6615125722509" y="1670.6520742384705" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.6.RELEASE/spring-context-5.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PriceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.SCHEMA:alex">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.SCHEMA:alex</OriginalElement>
-          <nodes>
-            <node x="254.0" y="0.0">ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.products</node>
-            <node x="0.0" y="0.0">ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.databasechangelog</node>
-            <node x="267.0" y="147.0">ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.prices</node>
-            <node x="0.0" y="383.0">ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.databasechangeloglock</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.prices" target="ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.products">
-              <point x="0.0" y="-70.5" />
-              <point x="0.0" y="48.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-2.5" y="68.5" />
-          <SelectedNodes>
-            <node>ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc.TABLE:alex.prices</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/FetchType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/MappedSuperclass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/cfg/OneToOneSecondPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/OneToOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.6.RELEASE/spring-orm-5.0.6.RELEASE-sources.jar!/org/springframework/orm/jpa/JpaTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-          <folding>
-            <element signature="e#7510#7511#0" expanded="true" />
-            <element signature="e#7548#7549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/persistence_2_1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="281" column="12" selection-start-line="281" selection-start-column="12" selection-end-line="281" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.6.RELEASE/spring-orm-5.0.6.RELEASE-sources.jar!/org/springframework/orm/jpa/LocalEntityManagerFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.6.RELEASE/spring-orm-5.0.6.RELEASE-sources.jar!/org/springframework/orm/jpa/AbstractEntityManagerFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jadira/usertype/usertype.spi/7.0.0.CR1/usertype.spi-7.0.0.CR1-sources.jar!/org/jadira/usertype/spi/jta/HibernateEntityManagerFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/EntityObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/liquibase.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-hibernate/1.3.2/dropwizard-hibernate-1.3.2-sources.jar!/io/dropwizard/hibernate/SessionFactoryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/HelloWorldResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.4.10.v20180503/jetty-util-9.4.10.v20180503-sources.jar!/org/eclipse/jetty/util/component/LifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1350,68 +880,352 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/1.3.2/dropwizard-core-1.3.2-sources.jar!/io/dropwizard/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="246">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/cfg/OneToOneSecondPass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="216" column="18" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="272">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.25.1/jersey-common-2.25.1-sources.jar!/org/glassfish/jersey/internal/inject/JerseyClassAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/liquibase.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/persistence_2_1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="281" column="12" selection-start-line="281" selection-start-column="12" selection-end-line="281" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/property/access/spi/GetterFieldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/tuple/PropertyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/engine/internal/UnsavedValueFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jersey/1.3.2/dropwizard-jersey-1.3.2-sources.jar!/io/dropwizard/jersey/setup/JerseyEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.1.Final/hibernate-core-5.3.1.Final-sources.jar!/org/hibernate/engine/spi/IdentifierValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#2862#2863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-jetty/1.3.2/dropwizard-jetty-1.3.2-sources.jar!/io/dropwizard/jetty/setup/ServletEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.0.RC3/spring-web-3.0.0.RC3.jar!/org/springframework/web/context/ContextLoaderListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-spring/1.19.4/jersey-spring-1.19.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="218" column="34" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2967">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/EntityObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar!/javax/ws/rs/GET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar!/javax/ws/rs/PathParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="184" column="6" lean-forward="true" selection-start-line="184" selection-start-column="6" selection-end-line="184" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="57">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PriceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/HelloWorldResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="88" lean-forward="true" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+        <state relative-caret-position="178">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/EntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
           </folding>
         </state>
       </provider>

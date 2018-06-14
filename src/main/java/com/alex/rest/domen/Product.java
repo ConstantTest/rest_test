@@ -2,7 +2,6 @@ package com.alex.rest.domen;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -17,10 +16,6 @@ public class Product extends EntityObject<Long> {
     private Price price;
 
     public Product() {
-    }
-
-    public Product(String productName) {
-        this.productName = productName;
     }
 
     public Price getPrice() {

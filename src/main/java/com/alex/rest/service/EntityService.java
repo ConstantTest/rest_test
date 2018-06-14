@@ -4,7 +4,7 @@ import com.alex.rest.domen.Price;
 
 import java.util.Collection;
 
-public interface Service<T> {
+public interface EntityService<T> {
     void add(T t);
     Collection<T> findAll();
     T findById(Long id);

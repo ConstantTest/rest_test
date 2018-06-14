@@ -1,45 +1,48 @@
 package com.alex.rest.resources;
 
 import com.alex.rest.domen.Price;
+import com.alex.rest.domen.Product;
+import com.alex.rest.service.EntityService;
 import com.alex.rest.service.PriceService;
-import com.alex.rest.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
+import java.util.Optional;
 
 @Path("products/{productId}/prices")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class PriceResource {
 
-    private final PriceService priceService;
+    private final EntityService<Price> priceService;
 
     @Autowired
-    public PriceResource(PriceService priceService) {
+    public PriceResource(EntityService<Price> priceService) {
         this.priceService = priceService;
     }
 
     // Retrieve
     @GET
-    public Collection<Price> findAll(@PathParam("productId") Long id) {
-        return priceService.findAll(id);
+    @Path("/*")
+    public Collection<Price> findAll() {
+        return priceService.findAll();
     }
 
     @GET
-    @Path("/{id}")
-    public Price getPrice(@PathParam("id") Long id) {
-        return priceService.findById(id);
+    public Price getPrice(@PathParam("productId") Long id) {
+        Optional<Price> matchingPrice = priceService.findAll().stream()
+                .filter(p -> p.getProduct().getPrice().getId().equals(id))
+                .findFirst();
+        return priceService.findById(matchingPrice.get().getId());
     }
 
-    // Create/update
+    // Create
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void createPrice(Price price) {
+    public void createPrice(@PathParam("productId") Long id, Price price) {
         priceService.add(price);
     }
 
