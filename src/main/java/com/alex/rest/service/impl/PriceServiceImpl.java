@@ -32,11 +32,11 @@ public class PriceServiceImpl implements PriceService {
     public Collection<Price> findAll(Long productId) {
         List<Price> prices = new ArrayList<>();
         List<Price> allPrices = (List<Price>) priceRepository.findAll();
-        for(Price p: allPrices) {
-            if(p.getProductId().equals(productId)) {
-                prices.add(p);
-            }
-        }
+//        for(Price p: allPrices) {//todo
+//            if(p.getProductId().equals(productId)) {
+//                prices.add(p);
+//            }
+//        }
         return prices;
     }
 

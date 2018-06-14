@@ -1,6 +1,10 @@
 package com.alex.rest.domen;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "products")
@@ -9,11 +13,11 @@ public class Product extends EntityObject<Long> {
     @Column(name = "productName", nullable = false)
     private String productName;
 
-//    @OneToOne(mappedBy="product")
-    @Transient
+    @OneToOne(mappedBy = "product")
     private Price price;
 
-    public Product() {}
+    public Product() {
+    }
 
     public Product(String productName) {
         this.productName = productName;
