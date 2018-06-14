@@ -1,12 +1,12 @@
 package com.alex.rest;
 
-import com.alex.rest.core.Price;
-import com.alex.rest.core.Product;
-import com.alex.rest.db.PriceDao;
-import com.alex.rest.db.ProductDao;
+import com.alex.rest.config.AppConfiguration;
+import com.alex.rest.domen.Product;
 import com.alex.rest.resources.HelloWorldResource;
 import com.alex.rest.resources.PriceResource;
 import com.alex.rest.resources.ProductResource;
+import com.alex.rest.service.PriceService;
+import com.alex.rest.service.ProductService;
 import io.dropwizard.Application;
 import io.dropwizard.configuration.EnvironmentVariableSubstitutor;
 import io.dropwizard.configuration.SubstitutingSourceProvider;
@@ -15,6 +15,7 @@ import io.dropwizard.hibernate.HibernateBundle;
 import io.dropwizard.migrations.MigrationsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class RestApplication extends Application<RestConfiguration> {
 
@@ -56,13 +57,16 @@ public class RestApplication extends Application<RestConfiguration> {
     @Override
     public void run(final RestConfiguration configuration,
                     final Environment environment) {
-        final ProductDao dao = new ProductDao(hibernateBundle.getSessionFactory());
-        final PriceDao priceDao = new PriceDao(hibernateBundle.getSessionFactory());
+
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfiguration.class);
+        ProductService productService = context.getBean(ProductService.class);
+        PriceService priceService = context.getBean(PriceService.class);
+
         final HelloWorldResource helloWorldResource =
                 new HelloWorldResource(configuration.getTemplate(), configuration.getDefaultName());
 
         environment.jersey().register(helloWorldResource);
-        environment.jersey().register(new ProductResource(dao));
-        environment.jersey().register(new PriceResource(priceDao));
+        environment.jersey().register(new ProductResource(productService));
+        environment.jersey().register(new PriceResource(priceService));
     }
 }

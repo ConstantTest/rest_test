@@ -1,5 +1,9 @@
 com.alex.rest
 com.alex.rest.api
-com.alex.rest.core
-com.alex.rest.db
+com.alex.rest.config
+com.alex.rest.domen
+com.alex.rest.repository
+com.alex.rest.repository.payment
 com.alex.rest.resources
+com.alex.rest.service
+com.alex.rest.service.impl

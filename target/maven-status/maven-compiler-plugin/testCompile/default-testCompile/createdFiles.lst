@@ -1,1 +1,2 @@
-com\alex\rest\db\ProductDaoTest.class
+com\alex\rest\repository\PriceDaoTest.class
+com\alex\rest\repository\ProductDaoTest.class

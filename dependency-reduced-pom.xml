@@ -142,10 +142,6 @@
       <scope>test</scope>
       <exclusions>
         <exclusion>
-          <artifactId>byte-buddy</artifactId>
-          <groupId>net.bytebuddy</groupId>
-        </exclusion>
-        <exclusion>
           <artifactId>byte-buddy-agent</artifactId>
           <groupId>net.bytebuddy</groupId>
         </exclusion>
@@ -185,8 +181,10 @@
   </dependencyManagement>
   <properties>
     <dropwizard.version>1.3.2</dropwizard.version>
+    <hibernate.version>5.3.1.Final</hibernate.version>
     <mainClass>com.alex.rest.RestApplication</mainClass>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <spring.version>5.0.6.RELEASE</spring.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
