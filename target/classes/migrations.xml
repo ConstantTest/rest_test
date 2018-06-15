@@ -13,6 +13,16 @@
 
     <changeSet id="1" author="root" runOnChange="true">
 
+        <!-- create table Tenants-->
+        <!--<createTable tableName="tenants">-->
+            <!--<column name="id" type="bigint" autoIncrement="true">-->
+                <!--<constraints primaryKey="true" nullable="false"/>-->
+            <!--</column>-->
+            <!--<column name="firstName" type="varchar(50)">-->
+                <!--<constraints nullable="false"/>-->
+            <!--</column>-->
+        <!--</createTable>-->
+
         <!-- create table Products -->
         <createTable tableName="products">
             <column name="id" type="bigint" autoIncrement="true">
@@ -28,7 +38,7 @@
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="price" type="decimal(20,2)">
+            <column name="amount" type="decimal(20,2)">
                 <constraints nullable="false"/>
             </column>
             <column name="currency" type="varchar(3)">
@@ -38,5 +48,31 @@
                 <constraints foreignKeyName="fk_product_id" unique="true" references="products(id)" nullable="true"/>
             </column>
         </createTable>
+
+        <!-- create table Orders-->
+        <!--<createTable tableName="orders">-->
+            <!--<column name="id" type="bigint" autoIncrement="true">-->
+                <!--<constraints primaryKey="true" nullable="false"/>-->
+            <!--</column>-->
+            <!--<column name="amount" type="decimal(20,2)">-->
+                <!--<constraints nullable="false"/>-->
+            <!--</column>-->
+            <!--<column name="tenant_id" type="bigint">-->
+                <!--<constraints foreignKeyName="fk_tenant_id" unique="true" references="tenants(id)" nullable="true"/>-->
+            <!--</column>-->
+        <!--</createTable>-->
+
+        <!-- create table States-->
+        <!--<createTable tableName="states">-->
+            <!--<column name="id" type="bigint" autoIncrement="true">-->
+                <!--<constraints primaryKey="true" nullable="false"/>-->
+            <!--</column>-->
+            <!--<column name="type" type="varchar(20)">-->
+                <!--<constraints nullable="false"/>-->
+            <!--</column>-->
+            <!--<column name="order_id" type="bigint">-->
+                <!--<constraints foreignKeyName="fk_order_id" unique="true" references="orders(id)" nullable="true"/>-->
+            <!--</column>-->
+        <!--</createTable>-->
     </changeSet>
 </databaseChangeLog>

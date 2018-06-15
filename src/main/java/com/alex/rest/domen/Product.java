@@ -1,5 +1,7 @@
 package com.alex.rest.domen;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
@@ -33,4 +35,5 @@ public class Product extends EntityObject<Long> {
     public void setProductName(String productName) {
         this.productName = productName;
     }
+
 }

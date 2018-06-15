@@ -13,4 +13,6 @@ public interface Repository<T extends EntityObject> {
     T findById(Long id);
 
     void delete(T entity);
+
+    boolean isExist(Long id);
 }

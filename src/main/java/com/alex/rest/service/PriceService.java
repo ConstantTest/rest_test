@@ -6,7 +6,7 @@ import java.util.Collection;
 
 public interface PriceService {
     void add(Price price);
-    Collection<Price> findAll(Long id);
+    Collection<Price> findAll();
     Price findById(Long id);
     void delete(Long id);
 }

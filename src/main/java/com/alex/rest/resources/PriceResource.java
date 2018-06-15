@@ -2,8 +2,9 @@ package com.alex.rest.resources;
 
 import com.alex.rest.domen.Price;
 import com.alex.rest.domen.Product;
-import com.alex.rest.service.EntityService;
 import com.alex.rest.service.PriceService;
+import com.alex.rest.service.ProductService;
+import com.alex.rest.service.QueryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -17,11 +18,14 @@ import java.util.Optional;
 @Component
 public class PriceResource {
 
-    private final EntityService<Price> priceService;
+    private PriceService priceService;
+
+    private ProductService productService;
 
     @Autowired
-    public PriceResource(EntityService<Price> priceService) {
+    public PriceResource(PriceService priceService, ProductService productService) {
         this.priceService = priceService;
+        this.productService = productService;
     }
 
     // Retrieve
@@ -33,16 +37,18 @@ public class PriceResource {
 
     @GET
     public Price getPrice(@PathParam("productId") Long id) {
-        Optional<Price> matchingPrice = priceService.findAll().stream()
-                .filter(p -> p.getProduct().getPrice().getId().equals(id))
-                .findFirst();
-        return priceService.findById(matchingPrice.get().getId());
+//        Optional<Price> matchingPrice = priceService.findAll().stream()
+//                .filter(p -> p.getProduct().getPrice().getId().equals(id))
+//                .findFirst();
+        return priceService.findById(1L);
     }
 
     // Create
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public void createPrice(@PathParam("productId") Long id, Price price) {
+        Product searchedProduct = productService.findById(id);
+        price.setProduct(searchedProduct);
         priceService.add(price);
     }
 

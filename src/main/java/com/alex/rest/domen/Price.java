@@ -1,5 +1,7 @@
 package com.alex.rest.domen;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
@@ -12,24 +14,25 @@ import java.util.Currency;
 @Table(name = "prices")
 public class Price extends EntityObject<Long> {
 
-    @Column(name = "price", nullable = false)
-    private BigDecimal price;
+    @Column(name = "amount", nullable = false)
+    private BigDecimal amount;
 
     @Column(name = "currency", nullable = false)
     private Currency currency;
 
     @OneToOne
+    @JsonIgnore
     @JoinColumn(name = "product_id")
     private Product product;
 
     public Price() {}
 
-    public BigDecimal getPrice() {
-        return price;
+    public BigDecimal getAmount() {
+        return amount;
     }
 
-    public void setPrice(BigDecimal price) {
-        this.price = price;
+    public void setAmount(BigDecimal price) {
+        this.amount = price;
     }
 
     public Currency getCurrency() {
@@ -39,15 +42,6 @@ public class Price extends EntityObject<Long> {
     public void setCurrency(Currency currency) {
         this.currency = currency;
     }
-
-
-//    public Long getProductId() {
-//        return productId;
-//    }
-//
-//    public void setProductId(Long productId) {
-//        this.productId = productId;
-//    }
 
     public Product getProduct() {
         return product;

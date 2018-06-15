@@ -2,7 +2,8 @@ package com.alex.rest.service.impl;
 
 import com.alex.rest.domen.Product;
 import com.alex.rest.repository.payment.ProductRepository;
-import com.alex.rest.service.EntityService;
+import com.alex.rest.service.ProductService;
+import com.alex.rest.service.QueryService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Collection;
 
 @Service
-public class ProductServiceImpl implements EntityService<Product> {
+public class ProductServiceImpl implements ProductService {
 
     private ProductRepository repository;
 

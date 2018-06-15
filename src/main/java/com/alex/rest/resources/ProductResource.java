@@ -1,13 +1,16 @@
 package com.alex.rest.resources;
 
 import com.alex.rest.domen.Product;
-import com.alex.rest.service.EntityService;
+import com.alex.rest.repository.payment.ProductRepository;
+import com.alex.rest.service.exceptions.InvalidParameterException;
+import com.alex.rest.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.util.Collection;
 
 @Path("/products")
@@ -15,10 +18,11 @@ import java.util.Collection;
 @Component
 public class ProductResource {
 
-    private EntityService<Product> productService;
+    private ProductService productService;
+    private ProductRepository productRepository;
 
     @Autowired
-    public ProductResource(EntityService<Product> productService) {
+    public ProductResource(ProductService productService, ProductRepository productRepository) {
         this.productService = productService;
     }
 
@@ -30,7 +34,10 @@ public class ProductResource {
 
     @GET
     @Path("/{id}")
-    public Product getProduct(@PathParam("id") Long id) {
+    public Product getProduct(@PathParam("id") Long id) throws InvalidParameterException {
+        if (id < 0) {
+            throw new InvalidParameterException("Invalid input");
+        }
         return productService.findById(id);
     }
 
@@ -44,7 +51,11 @@ public class ProductResource {
     @DELETE
     @Path("/{id}")
     @Transactional
-    public void delete(@PathParam("id") Long id) {
+    public Response delete(@PathParam("id") Long id) throws NotFoundException {
+        if (!productRepository.isExist(id)) {
+            throw new NotFoundException("The product with id = " + id + "is not exist!");
+        }
         productService.delete(id);
+        return Response.ok("The product is deleted successfully").build();
     }
 }

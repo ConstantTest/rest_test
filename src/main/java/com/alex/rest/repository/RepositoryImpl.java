@@ -50,4 +50,9 @@ public abstract class RepositoryImpl<T extends EntityObject> implements Reposito
     public void delete(T entity) {
         entityManager.remove(entity);
     }
+
+    @Override
+    public boolean isExist(Long id) {
+       return entityManager.find(currentType, id) != null;
+    }
 }

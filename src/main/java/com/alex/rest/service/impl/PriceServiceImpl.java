@@ -1,18 +1,19 @@
 package com.alex.rest.service.impl;
 
 import com.alex.rest.domen.Price;
+import com.alex.rest.domen.Product;
 import com.alex.rest.repository.payment.PriceRepository;
-import com.alex.rest.service.EntityService;
+import com.alex.rest.service.PriceService;
+import com.alex.rest.service.QueryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
-import java.util.Optional;
 
 
 @Service
-public class PriceServiceImpl implements EntityService<Price> {
+public class PriceServiceImpl implements PriceService {
 
     private PriceRepository priceRepository;
 
