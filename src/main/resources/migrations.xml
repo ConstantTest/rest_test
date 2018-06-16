@@ -49,6 +49,19 @@
             </column>
         </createTable>
 
+        <!-- create table PriceCategories -->
+        <createTable tableName="priceCategories">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="type" type="varchar(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="price_id" type="bigint">
+                <constraints foreignKeyName="fk_price_id" references="prices(id)" nullable="true"/>
+            </column>
+        </createTable>
+
         <!-- create table Orders-->
         <!--<createTable tableName="orders">-->
             <!--<column name="id" type="bigint" autoIncrement="true">-->

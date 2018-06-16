@@ -9,22 +9,21 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Collection;
+import java.util.Optional;
 
 @Path("/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class ProductResource {
 
-    private ProductService productService;
-    private ProductRepository productRepository;
-
     @Autowired
-    public ProductResource(ProductService productService, ProductRepository productRepository) {
-        this.productService = productService;
-    }
+    private ProductService productService;
+    @Autowired
+    private ProductRepository productRepository;
 
     // Retrieve
     @GET
@@ -38,7 +37,9 @@ public class ProductResource {
         if (id < 0) {
             throw new InvalidParameterException("Invalid input");
         }
-        return productService.findById(id);
+        Optional<Product> product =
+                Optional.ofNullable(productService.findById(id));
+        return product.orElseThrow(() -> new NullPointerException("The product is not found."));
     }
 
     // Create/update
@@ -51,11 +52,12 @@ public class ProductResource {
     @DELETE
     @Path("/{id}")
     @Transactional
-    public Response delete(@PathParam("id") Long id) throws NotFoundException {
+    public Response delete(@PathParam("id") Long id) throws NullPointerException {
+
         if (!productRepository.isExist(id)) {
-            throw new NotFoundException("The product with id = " + id + "is not exist!");
+            throw new NullPointerException("The product with id = " + id + "is not exist!");
         }
         productService.delete(id);
-        return Response.ok("The product is deleted successfully").build();
+        return Response.ok("The product is deleted successfully").type(MediaType.TEXT_PLAIN_TYPE).build();
     }
 }

@@ -1,7 +1,9 @@
 package com.alex.rest.domen;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.Cascade;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
@@ -14,7 +16,7 @@ public class Product extends EntityObject<Long> {
     @Column(name = "productName", nullable = false)
     private String productName;
 
-    @OneToOne(mappedBy = "product")
+    @OneToOne(mappedBy = "product", cascade = CascadeType.ALL)
     private Price price;
 
     public Product() {
