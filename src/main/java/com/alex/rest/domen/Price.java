@@ -38,6 +38,11 @@ public class Price extends EntityObject<Long> {
     @OneToOne(mappedBy = "price", cascade = CascadeType.ALL)
     private PriceCategory category;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "tenant_id")
+    @JsonIgnore
+    private Tenant tenant;
+
     public BigDecimal getAmount() {
         return amount;
     }
@@ -68,5 +73,13 @@ public class Price extends EntityObject<Long> {
 
     public void setCategory(PriceCategory category) {
         this.category = category;
+    }
+
+    public Tenant getTenant() {
+        return tenant;
+    }
+
+    public void setTenant(Tenant tenant) {
+        this.tenant = tenant;
     }
 }

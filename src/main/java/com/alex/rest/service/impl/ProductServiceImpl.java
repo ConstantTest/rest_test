@@ -25,7 +25,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Transactional(readOnly = true)
     @Override
-    public Collection<Product> findAll() {
+    public Collection<Product> findAll(Long id) {
         return repository.findAll();
     }
 

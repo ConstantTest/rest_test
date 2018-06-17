@@ -8,6 +8,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "tenants")
@@ -17,7 +18,13 @@ public class Tenant extends EntityObject<Long> {
     private String firstName;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "tenant", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Collection<Order> orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
+
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "tenant", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Product> products = new ArrayList<>();
+
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "tenant", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Price> prices = new ArrayList<>();
 
     public Tenant() {}
 
@@ -29,11 +36,27 @@ public class Tenant extends EntityObject<Long> {
         this.firstName = firstName;
     }
 
-    public Collection<Order> getOrders() {
+    public List<Order> getOrders() {
         return orders;
     }
 
-    public void setOrders(Collection<Order> orders) {
+    public void setOrders(List<Order> orders) {
         this.orders = orders;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+
+    public List<Price> getPrices() {
+        return prices;
+    }
+
+    public void setPrices(List<Price> prices) {
+        this.prices = prices;
     }
 }

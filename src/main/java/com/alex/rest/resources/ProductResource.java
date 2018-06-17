@@ -15,7 +15,7 @@ import javax.ws.rs.core.Response;
 import java.util.Collection;
 import java.util.Optional;
 
-@Path("/products")
+@Path("tenants/{tenant_id}/orders/{order_id}/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class ProductResource {
@@ -27,8 +27,11 @@ public class ProductResource {
 
     // Retrieve
     @GET
-    public Collection<Product> findAll() {
-        return productService.findAll();
+    public Collection<Product> findAll(@PathParam("order_id") Long id) throws InvalidParameterException {
+        if (id < 0) {
+            throw new InvalidParameterException("Invalid input");
+        }
+        return productService.findAll(id);
     }
 
     @GET

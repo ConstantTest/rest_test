@@ -44,7 +44,27 @@
             <column name="productName" type="varchar(50)">
                 <constraints nullable="false"/>
             </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
+            </column>
         </createTable>
+
+        <!-- create table Orders_Products -->
+        <createTable tableName="orders_products">
+            <column name="order" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="product" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+        </createTable>
+
+        <addForeignKeyConstraint
+                baseTableName="orders_products" baseColumnNames="order" constraintName="fk_ord_id"
+                referencedTableName="orders" referencedColumnNames="id"/>
+        <addForeignKeyConstraint
+                baseTableName="orders_products" baseColumnNames="product" constraintName="fk_prod_id"
+                referencedTableName="products" referencedColumnNames="id"/>
 
         <!-- create table Prices-->
         <createTable tableName="prices">
@@ -59,6 +79,9 @@
             </column>
             <column name="product_id" type="bigint">
                 <constraints foreignKeyName="fk_product_id" references="products(id)" nullable="true"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
             </column>
         </createTable>
 
