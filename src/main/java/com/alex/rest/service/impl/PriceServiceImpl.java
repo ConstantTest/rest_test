@@ -28,7 +28,7 @@ public class PriceServiceImpl implements PriceService {
 
     @Transactional(readOnly = true)
     @Override
-    public Collection<Price> findAll() {
+    public Collection<Price> findAll(Long id) {
         return priceRepository.findAll();
     }
 

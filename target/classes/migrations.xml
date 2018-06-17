@@ -14,14 +14,27 @@
     <changeSet id="1" author="root" runOnChange="true">
 
         <!-- create table Tenants-->
-        <!--<createTable tableName="tenants">-->
-            <!--<column name="id" type="bigint" autoIncrement="true">-->
-                <!--<constraints primaryKey="true" nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="firstName" type="varchar(50)">-->
-                <!--<constraints nullable="false"/>-->
-            <!--</column>-->
-        <!--</createTable>-->
+        <createTable tableName="tenants">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="firstName" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+         <!-- create table Orders -->
+        <createTable tableName="orders">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="amount" type="decimal(20,2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
 
         <!-- create table Products -->
         <createTable tableName="products">
@@ -45,7 +58,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="product_id" type="bigint">
-                <constraints foreignKeyName="fk_product_id" unique="true" references="products(id)" nullable="true"/>
+                <constraints foreignKeyName="fk_product_id" references="products(id)" nullable="true"/>
             </column>
         </createTable>
 
@@ -58,7 +71,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="price_id" type="bigint">
-                <constraints foreignKeyName="fk_price_id" references="prices(id)" nullable="true"/>
+                <constraints foreignKeyName="fk_price_id" unique="true" references="prices(id)" nullable="true"/>
             </column>
         </createTable>
 

@@ -16,7 +16,7 @@ import javax.ws.rs.core.Response;
 import java.util.Collection;
 import java.util.Optional;
 
-@Path("products/{productId}/prices")
+@Path("products/{product_id}/prices")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class PriceResource {
@@ -31,23 +31,21 @@ public class PriceResource {
     // Retrieve
 
     @GET
-    public Price getPrice(@PathParam("productId") Long id) throws InvalidParameterException {
+    public Collection<Price> findAll(@PathParam("product_id") Long id) throws InvalidParameterException {
         if (id < 0) {
             throw new InvalidParameterException("Invalid input");
         }
-        Optional<Price> price = Optional.ofNullable(productService.findById(id).getPrice());
-        return price.orElseThrow(() -> new NullPointerException("The price is not found."));
+        return productService.findById(id).getPrices();
     }
 
     // Create
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void createPrice(@PathParam("productId") Long id, Price price) throws InvalidParameterException {
+    public void createPrice(@PathParam("product_id") Long id, Price price) throws InvalidParameterException {
         if (id < 0) {
             throw new InvalidParameterException("Invalid input");
         }
-        Product searchedProduct = productService.findById(id);
-        price.setProduct(searchedProduct);
+        price.setProduct(productService.findById(id));
         priceService.add(price);
     }
 

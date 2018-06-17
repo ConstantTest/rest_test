@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Currency;
 import java.util.List;
+import java.util.Optional;
 
 @Entity
 @Table(name = "prices")
@@ -28,13 +30,13 @@ public class Price extends EntityObject<Long> {
 
     public Price() {}
 
-    @OneToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnore
     @JoinColumn(name = "product_id")
     private Product product;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "price", cascade = CascadeType.ALL)
-    private Collection<PriceCategory> priceCategories = new ArrayList<>();
+    @OneToOne(mappedBy = "price", cascade = CascadeType.ALL)
+    private PriceCategory category;
 
     public BigDecimal getAmount() {
         return amount;
@@ -60,11 +62,11 @@ public class Price extends EntityObject<Long> {
         this.product = product;
     }
 
-    public Collection<PriceCategory> getPriceCategories() {
-        return priceCategories;
+    public PriceCategory getCategory() {
+        return category;
     }
 
-    public void setPriceCategories(Collection<PriceCategory> priceCategories) {
-        this.priceCategories = priceCategories;
+    public void setCategory(PriceCategory category) {
+        this.category = category;
     }
 }

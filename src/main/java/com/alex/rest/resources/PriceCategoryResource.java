@@ -20,7 +20,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Optional;
 
-@Path("prices/{price_id}/category")
+@Path("prices/{price_id}/categories")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class PriceCategoryResource {
@@ -40,7 +40,7 @@ public class PriceCategoryResource {
             throw new InvalidParameterException("Invalid input");
         }
         Optional<PriceCategory> category =
-                categoryService.findAll().stream().filter(c -> id.equals(c.getId())).findAny();
+                categoryService.findAll().stream().filter(c -> id.equals(c.getId())).findFirst();
         return category.orElseThrow(() -> new NullPointerException("The category is not found."));
     }
 
@@ -58,11 +58,11 @@ public class PriceCategoryResource {
 
     @DELETE
     @Path("/{id}")
-    public Response delete(@PathParam("id") long id) {
+    public Response delete(@PathParam("id") Long id) {
         if (!categoryRepository.isExist(id)) {
             throw new NullPointerException("The price category with id = " + id + "is not exist!");
         }
-        priceService.delete(id);
+        categoryService.delete(id);
         return Response.ok("The price category is deleted successfully").type(MediaType.TEXT_PLAIN_TYPE).build();
     }
 }

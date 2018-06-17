@@ -14,12 +14,8 @@ import java.util.Collection;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    private ProductRepository repository;
-
     @Autowired
-    public ProductServiceImpl(ProductRepository repository) {
-        this.repository = repository;
-    }
+    private ProductRepository repository;
 
     @Transactional
     @Override
