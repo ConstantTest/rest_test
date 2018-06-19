@@ -32,7 +32,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="tenant_id" type="bigint">
-                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
+                <constraints foreignKeyName="orders_tenant_id_fk" references="tenants(id)" nullable="true"/>
             </column>
         </createTable>
 
@@ -45,25 +45,25 @@
                 <constraints nullable="false"/>
             </column>
             <column name="tenant_id" type="bigint">
-                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
+                <constraints foreignKeyName="products_tenant_id_fk" references="tenants(id)" nullable="true"/>
             </column>
         </createTable>
 
         <!-- create table Orders_Products -->
         <createTable tableName="orders_products">
-            <column name="order" type="bigint">
+            <column name="order_id" type="bigint">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="product" type="bigint">
+            <column name="product_id" type="bigint">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
         </createTable>
 
         <addForeignKeyConstraint
-                baseTableName="orders_products" baseColumnNames="order" constraintName="fk_ord_id"
+                baseTableName="orders_products" baseColumnNames="order_id" constraintName="fk_ord_id"
                 referencedTableName="orders" referencedColumnNames="id"/>
         <addForeignKeyConstraint
-                baseTableName="orders_products" baseColumnNames="product" constraintName="fk_prod_id"
+                baseTableName="orders_products" baseColumnNames="product_id" constraintName="fk_prod_id"
                 referencedTableName="products" referencedColumnNames="id"/>
 
         <!-- create table Prices-->
@@ -78,10 +78,10 @@
                 <constraints nullable="false"/>
             </column>
             <column name="product_id" type="bigint">
-                <constraints foreignKeyName="fk_product_id" references="products(id)" nullable="true"/>
+                <constraints foreignKeyName="prices_product_id_fk" references="products(id)" nullable="true"/>
             </column>
             <column name="tenant_id" type="bigint">
-                <constraints foreignKeyName="fk_tenant_id" references="tenants(id)" nullable="true"/>
+                <constraints foreignKeyName="prices_tenant_id_fk" references="tenants(id)" nullable="true"/>
             </column>
         </createTable>
 
@@ -94,33 +94,33 @@
                 <constraints nullable="false"/>
             </column>
             <column name="price_id" type="bigint">
-                <constraints foreignKeyName="fk_price_id" unique="true" references="prices(id)" nullable="true"/>
+                <constraints foreignKeyName="price_categories_price_id_fk" unique="true" references="prices(id)" nullable="true"/>
             </column>
         </createTable>
 
-        <!-- create table Orders-->
-        <!--<createTable tableName="orders">-->
-            <!--<column name="id" type="bigint" autoIncrement="true">-->
-                <!--<constraints primaryKey="true" nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="amount" type="decimal(20,2)">-->
-                <!--<constraints nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="tenant_id" type="bigint">-->
-                <!--<constraints foreignKeyName="fk_tenant_id" unique="true" references="tenants(id)" nullable="true"/>-->
-            <!--</column>-->
-        <!--</createTable>-->
+        <!-- create table Invoices -->
+        <createTable tableName="invoices">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="total_amount" type="decimal(20,2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="invoices_tenant_id_fk" unique="true" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
 
         <!-- create table States-->
         <!--<createTable tableName="states">-->
             <!--<column name="id" type="bigint" autoIncrement="true">-->
-                <!--<constraints primaryKey="true" nullable="false"/>-->
+            <!--<constraints primaryKey="true" nullable="false"/>-->
             <!--</column>-->
             <!--<column name="type" type="varchar(20)">-->
-                <!--<constraints nullable="false"/>-->
+            <!--<constraints nullable="false"/>-->
             <!--</column>-->
             <!--<column name="order_id" type="bigint">-->
-                <!--<constraints foreignKeyName="fk_order_id" unique="true" references="orders(id)" nullable="true"/>-->
+            <!--<constraints foreignKeyName="fk_order_id" unique="true" references="orders(id)" nullable="true"/>-->
             <!--</column>-->
         <!--</createTable>-->
     </changeSet>

@@ -1,43 +1,59 @@
 package com.alex.rest.service.impl;
 
+import com.alex.rest.domen.Order;
 import com.alex.rest.domen.Product;
 import com.alex.rest.repository.payment.ProductRepository;
-import com.alex.rest.service.ProductService;
-import com.alex.rest.service.QueryService;
 
+import com.alex.rest.service.dto.OrderDto;
+import com.alex.rest.service.dto.ProductDto;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
+import java.util.stream.Collectors;
 
 @Service
-public class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl {
 
     @Autowired
     private ProductRepository repository;
 
+    @Autowired
+    ConversionService conversionService;
+
+    @Autowired
+    private OrderServiceImpl orderServiceImpl;
+
     @Transactional
-    @Override
-    public void add(Product product) {
+    public void create(ProductDto productDto) {
+        Product product = conversionService.convert(productDto, Product.class);
         repository.save(product);
     }
 
     @Transactional(readOnly = true)
-    @Override
-    public Collection<Product> findAll(Long id) {
-        return repository.findAll();
+    public Collection<ProductDto> findAll() {
+        return repository.findAll().stream()
+                .map(product -> conversionService.convert(product, ProductDto.class)).collect(Collectors.toList());
     }
 
     @Transactional(readOnly = true)
-    @Override
-    public Product findById(Long id) {
-        return repository.findById(id);
+    public ProductDto findById(Long id) {
+        return conversionService.convert(repository.findById(id), ProductDto.class);
     }
 
     @Transactional
-    @Override
     public void delete(Long id) {
         repository.delete(repository.findById(id));
+    }
+
+    @Transactional
+    public void createProductForOrder(ProductDto productDto, Long orderDtoId) {
+        Product product = conversionService.convert(productDto, Product.class);
+        create(productDto);
+        // create product to order
+        Order order = conversionService.convert(orderServiceImpl.findById(orderDtoId), Order.class);
+        order.addProduct(product);
     }
 }

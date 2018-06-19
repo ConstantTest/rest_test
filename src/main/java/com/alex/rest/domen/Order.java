@@ -1,7 +1,6 @@
 package com.alex.rest.domen;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -14,7 +13,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -24,14 +22,14 @@ public class Order extends EntityObject<Long> {
     @Column(name = "amount", nullable = false)
     private BigDecimal amount;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "tenant_id")
-    @JsonIgnore
-    private Tenant tenant;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "tenant_id")
+//    @JsonIgnore
+//    private Tenant tenant;
 
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.EAGER)
-    @JoinTable(name = "orders_products", joinColumns = @JoinColumn(name = "order", referencedColumnName = "id"),
-    inverseJoinColumns = @JoinColumn(name = "product", referencedColumnName = "id"))
+    @JoinTable(name = "orders_products", joinColumns = @JoinColumn(name = "order_id", referencedColumnName = "id"),
+    inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))
     private List<Product> products = new ArrayList<>();
 
     public Order() {}
@@ -42,14 +40,6 @@ public class Order extends EntityObject<Long> {
 
     public void setAmount(BigDecimal amount) {
         this.amount = amount;
-    }
-
-    public Tenant getTenant() {
-        return tenant;
-    }
-
-    public void setTenant(Tenant tenant) {
-        this.tenant = tenant;
     }
 
     public List<Product> getProducts() {

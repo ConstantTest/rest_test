@@ -1,4 +1,4 @@
-package com.alex.rest.service.exceptions;
+package com.alex.rest.exceptions;
 
 public class InvalidParameterException extends Exception {
 

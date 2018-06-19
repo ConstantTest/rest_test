@@ -1,55 +1,55 @@
 package com.alex.rest.resources;
 
-import com.alex.rest.domen.Product;
 import com.alex.rest.repository.payment.ProductRepository;
-import com.alex.rest.service.exceptions.InvalidParameterException;
-import com.alex.rest.service.ProductService;
+import com.alex.rest.exceptions.InvalidParameterException;
+import com.alex.rest.service.dto.ProductDto;
+import com.alex.rest.service.impl.OrderServiceImpl;
+import com.alex.rest.service.impl.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Collection;
 import java.util.Optional;
 
-@Path("tenants/{tenant_id}/orders/{order_id}/products")
+@Path("orders/{order_id}/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class ProductResource {
 
     @Autowired
-    private ProductService productService;
+    private ProductServiceImpl productService;
     @Autowired
     private ProductRepository productRepository;
 
+    @Autowired
+    private OrderServiceImpl orderService;
+
     // Retrieve
     @GET
-    public Collection<Product> findAll(@PathParam("order_id") Long id) throws InvalidParameterException {
-        if (id < 0) {
-            throw new InvalidParameterException("Invalid input");
-        }
-        return productService.findAll(id);
+    public Collection<ProductDto> findAll() throws InvalidParameterException {
+        return productService.findAll();
     }
 
     @GET
     @Path("/{id}")
-    public Product getProduct(@PathParam("id") Long id) throws InvalidParameterException {
+    public ProductDto getProductDto(@PathParam("id") Long id) throws InvalidParameterException {
         if (id < 0) {
             throw new InvalidParameterException("Invalid input");
         }
-        Optional<Product> product =
+        Optional<ProductDto> productDto =
                 Optional.ofNullable(productService.findById(id));
-        return product.orElseThrow(() -> new NullPointerException("The product is not found."));
+        return productDto.orElseThrow(() -> new NullPointerException("The product is not found."));
     }
 
     // Create/update
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void createProduct(Product product) {
-        productService.add(product);
+    public void createProduct(ProductDto productDto,@PathParam("order_id") Long orderId) {
+        productService.createProductForOrder(productDto, orderId);
     }
 
     @DELETE

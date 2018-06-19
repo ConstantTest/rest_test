@@ -2,40 +2,37 @@ package com.alex.rest.service.impl;
 
 import com.alex.rest.domen.Order;
 import com.alex.rest.repository.payment.OrderRepository;
-import com.alex.rest.service.OrderService;
+import com.alex.rest.service.dto.OrderDto;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
+import java.util.stream.Collectors;
+
 
 @Service
-public class OrderServiceImpl implements OrderService {
+public class OrderServiceImpl {
 
     @Autowired
-    private OrderRepository repository;
+    private OrderRepository orderRepository;
+    @Autowired
+    private ConversionService conversionService;
 
-    @Override
-    @Transactional
-    public void add(Order order) {
-        repository.save(order);
+    public void create(OrderDto orderDto) {
+        orderRepository.save(conversionService.convert(orderDto, Order.class));
     }
 
-    @Override
-    @Transactional(readOnly = true)
-    public Collection<Order> findAll(Long id) {
-        return repository.findAll();
+    public Collection<OrderDto> findAll() {
+        return orderRepository.findAll().stream()
+                .map(order -> conversionService.convert(order, OrderDto.class)).collect(Collectors.toList());
     }
 
-    @Override
-    @Transactional(readOnly = true)
-    public Order findById(Long id) {
-        return repository.findById(id);
+    public OrderDto findById(Long id) {
+        return conversionService.convert(orderRepository.findById(id), OrderDto.class);
     }
 
-    @Override
-    @Transactional
     public void delete(Long id) {
-        repository.delete(repository.findById(id));
+        orderRepository.delete(orderRepository.findById(id));
     }
 }

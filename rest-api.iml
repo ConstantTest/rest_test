@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="AppConfiguration" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/resources/test_spring_config.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -147,6 +148,7 @@
     <orderEntry type="library" name="Maven: org.glassfish.hk2:spring-bridge:2.5.0-b32" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.0.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.0.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.3.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.22.0-GA" level="project" />

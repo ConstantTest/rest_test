@@ -1,15 +1,16 @@
-package com.alex.rest.service.exception_mappers;
+package com.alex.rest.rest.mappers;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
-import javax.ws.rs.ext.Provider;
 
 
 public abstract class BaseExceptionMapper<T extends Throwable> implements ExceptionMapper<T> {
 
+
     @Override
     public Response toResponse(T exception) {
+        exception.printStackTrace();
         return handler(exception);
     }
 

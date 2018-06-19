@@ -2,8 +2,6 @@ package com.alex.rest;
 
 import com.alex.rest.config.AppConfiguration;
 
-import com.alex.rest.service.exception_mappers.BaseExceptionMapper;
-import com.alex.rest.service.exception_mappers.InvalidParameterExceptionMapper;
 import io.dropwizard.Application;
 
 import io.dropwizard.setup.Bootstrap;
@@ -29,7 +27,6 @@ public class RestApplication extends Application<RestConfiguration> {
         environment.servlets().addServletListeners( new ContextLoaderListener(context));
 
         environment.jersey().packages("com.alex.rest");
-//        environment.jersey().register(new InvalidParameterExceptionMapper());
     }
 
     private AnnotationConfigWebApplicationContext createContext() {

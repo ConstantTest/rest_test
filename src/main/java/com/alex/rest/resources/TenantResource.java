@@ -3,7 +3,7 @@ package com.alex.rest.resources;
 import com.alex.rest.domen.Tenant;
 import com.alex.rest.repository.payment.TenantRepository;
 import com.alex.rest.service.TenantService;
-import com.alex.rest.service.exceptions.InvalidParameterException;
+import com.alex.rest.exceptions.InvalidParameterException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,7 +20,7 @@ import javax.ws.rs.core.Response;
 import java.util.Collection;
 import java.util.Optional;
 
-@Path("/tenants")
+@Path("")
 @Produces(MediaType.APPLICATION_JSON)
 @Component
 public class TenantResource {

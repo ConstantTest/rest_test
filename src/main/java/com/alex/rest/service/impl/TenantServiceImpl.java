@@ -1,7 +1,5 @@
 package com.alex.rest.service.impl;
 
-import com.alex.rest.domen.EntityObject;
-import com.alex.rest.domen.Order;
 import com.alex.rest.domen.Tenant;
 import com.alex.rest.repository.payment.TenantRepository;
 import com.alex.rest.service.TenantService;

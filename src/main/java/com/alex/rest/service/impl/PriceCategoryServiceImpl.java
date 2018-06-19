@@ -12,16 +12,12 @@ import java.util.Collection;
 @Service
 public class PriceCategoryServiceImpl implements PriceCategoryService {
 
-    private PriceCategoryRepository categoryRepository;
-
     @Autowired
-    public PriceCategoryServiceImpl(PriceCategoryRepository categoryRepository) {
-        this.categoryRepository = categoryRepository;
-    }
+    private PriceCategoryRepository categoryRepository;
 
     @Override
     @Transactional
-    public void add(PriceCategory category) {
+    public void create(PriceCategory category) {
         categoryRepository.save(category);
     }
 

@@ -7,7 +7,7 @@ import java.util.Collection;
 
 public interface PriceCategoryService {
 
-    void add(PriceCategory category);
+    void create(PriceCategory category);
     Collection<PriceCategory> findAll();
     PriceCategory findById(Long id);
     void delete(Long id);

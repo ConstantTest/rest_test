@@ -1,8 +1,7 @@
-package com.alex.rest.service.exception_mappers;
+package com.alex.rest.rest.mappers;
 
-import com.alex.rest.service.exceptions.InvalidParameterException;
+import com.alex.rest.exceptions.InvalidParameterException;
 
-import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.Provider;
 

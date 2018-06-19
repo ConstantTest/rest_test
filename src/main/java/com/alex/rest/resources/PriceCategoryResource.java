@@ -5,7 +5,7 @@ import com.alex.rest.domen.PriceCategory;
 import com.alex.rest.repository.payment.PriceCategoryRepository;
 import com.alex.rest.service.PriceService;
 import com.alex.rest.service.PriceCategoryService;
-import com.alex.rest.service.exceptions.InvalidParameterException;
+import com.alex.rest.exceptions.InvalidParameterException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -53,7 +53,7 @@ public class PriceCategoryResource {
         }
         Price searchedPrice = priceService.findById(id);
         category.setPrice(searchedPrice);
-        categoryService.add(category);
+        categoryService.create(category);
     }
 
     @DELETE
