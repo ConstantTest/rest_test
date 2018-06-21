@@ -4,13 +4,13 @@ import com.alex.rest.domen.Order;
 import com.alex.rest.domen.Product;
 import com.alex.rest.repository.payment.ProductRepository;
 
-import com.alex.rest.service.dto.OrderDto;
 import com.alex.rest.service.dto.ProductDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.ws.rs.core.Response;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
@@ -27,9 +27,11 @@ public class ProductServiceImpl {
     private OrderServiceImpl orderServiceImpl;
 
     @Transactional
-    public void create(ProductDto productDto) {
+    public ProductDto create(ProductDto productDto) {
         Product product = conversionService.convert(productDto, Product.class);
         repository.save(product);
+
+        return conversionService.convert(product, ProductDto.class);
     }
 
     @Transactional(readOnly = true)
@@ -49,11 +51,16 @@ public class ProductServiceImpl {
     }
 
     @Transactional
-    public void createProductForOrder(ProductDto productDto, Long orderDtoId) {
-        Product product = conversionService.convert(productDto, Product.class);
-        create(productDto);
+    public ProductDto createProductForOrder(ProductDto productDto, Long orderDtoId) {
+        Product createdProduct = conversionService.convert(productDto, Product.class);
+        ProductDto createdProductDto = create(productDto);
+
         // create product to order
+//        Order order = conversionService.convert(orderServiceImpl.findById(orderDtoId), Order.class);
         Order order = conversionService.convert(orderServiceImpl.findById(orderDtoId), Order.class);
-        order.addProduct(product);
+        if (order != null) {
+            order.addProductToOrder(createdProduct);
+        }
+        return createdProductDto;
     }
 }

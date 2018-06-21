@@ -13,6 +13,7 @@ public class InvoiceEntityToDtoConverter implements Converter<Invoice, InvoiceDt
     @Override
     public InvoiceDto convert(@NonNull Invoice source) {
         InvoiceDto invoiceDto = new InvoiceDto();
+        invoiceDto.setId(source.getId());
         invoiceDto.setAmount(source.getAmount());
         return invoiceDto;
     }

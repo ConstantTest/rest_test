@@ -9,6 +9,12 @@ import java.math.BigDecimal;
 @Table(name = "invoices")
 public class Invoice extends EntityObject<Long> {
 
+    private Long id;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     @Column(name = "total_amount")
     private BigDecimal amount;
 

@@ -2,45 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf481db2-738f-4cbe-8a97-5abaa32ea11b" name="Default" comment="wip">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Tenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Tenant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/TenantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/TenantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/QueryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exception_mappers/BaseExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/rest/mappers/BaseExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exception_mappers/InternalErrorExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/rest/mappers/InternalErrorExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exception_mappers/InvalidParameterExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/rest/mappers/InvalidParameterExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exception_mappers/JsonExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/rest/mappers/JsonExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exception_mappers/NotFoundEntityExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/rest/mappers/NotFoundEntityExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/exceptions/InvalidParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/exceptions/InvalidParameterException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/TenantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceDtoToEntityConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/migrations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alex/rest/repository/PriceDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alex/rest/repository/ProductDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/RestApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/PriceResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/PriceResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/ProductResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alex/rest/resources/ProductResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/migrations.xml" afterDir="false" />
@@ -88,64 +84,34 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="alex: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="alex@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="alex: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="orders: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="alex@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="alex: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="orders_products: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="alex@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="alex: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="tenants: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="alex@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="alex_temp: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InvoiceEntityToDtoConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="309">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/OrderRepository.java">
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="24" column="98" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderDtoToEntityConverter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderDtoToEntityConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="173">
+              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,86 +119,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderEntityToDtoConverter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java">
+      <file leaf-file-name="orders_products" pinned="false" current-in-tab="false">
+        <entry file="das://ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/schema/alex/table/orders_products">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders" pinned="false" current-in-tab="false">
+        <entry file="das://ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/schema/alex/table/orders">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding>
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDtoToEntityConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -267,57 +207,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/console.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/test_spring_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/test_spring_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductConverter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/alex/rest/repository/DefaultConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/QueryService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/QueryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/EntityToDtoConverterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/EntityToDtoConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceDtoToEntityConverterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/DtoToEntityConverterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/DtoToEntityConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/MyConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/Dto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/CollectionConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/CollectionEntityToDtoConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/CollectionDtoToEntityConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/TenantRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceDtoToEntiConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceDtoToEntityConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityTo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceCategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Tenant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/alex/rest/repository/JPACriteriaQueryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/QueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/SearchCriteria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java" />
       </list>
     </option>
   </component>
@@ -359,19 +299,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1918" />
-    <option name="y" value="5" />
-    <option name="width" value="1260" />
-    <option name="height" value="620" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -412,7 +350,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
@@ -519,10 +457,24 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rest_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,10 +484,11 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MariaDB" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../springexample" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springexample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -611,7 +564,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JPACriteriaQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-api" />
       <extension name="coverage">
         <pattern>
@@ -622,8 +575,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.alex.rest.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.DefaultConverterTest" />
-      <option name="METHOD_NAME" value="whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" />
+      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.JPACriteriaQueryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alex.rest.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alex.rest.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.JPACriteriaQueryTest" />
+      <option name="METHOD_NAME" value="givenAmount_whenGettingListOFInvoices_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -634,7 +610,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PriceDaoTest.createPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JPACriteriaQueryTest.givenId_whenGettingListOfInvoices_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-api" />
       <extension name="coverage">
         <pattern>
@@ -645,31 +621,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.alex.rest.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.PriceDaoTest" />
-      <option name="METHOD_NAME" value="createPerson" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProductDaoTest.createPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alex.rest.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.alex.rest.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.ProductDaoTest" />
-      <option name="METHOD_NAME" value="createPerson" />
+      <option name="MAIN_CLASS_NAME" value="com.alex.rest.repository.JPACriteriaQueryTest" />
+      <option name="METHOD_NAME" value="givenId_whenGettingListOfInvoices_thenCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -720,18 +673,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.RestApplication" />
-      <item itemvalue="JUnit.ProductDaoTest.createPerson" />
-      <item itemvalue="JUnit.PriceDaoTest.createPerson" />
-      <item itemvalue="JUnit.DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" />
       <item itemvalue="JUnit.DefaultConverterTest" />
+      <item itemvalue="JUnit.JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" />
+      <item itemvalue="JUnit.JPACriteriaQueryTest.givenId_whenGettingListOfInvoices_thenCorrect" />
+      <item itemvalue="JUnit.JPACriteriaQueryTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RestApplication" />
+        <item itemvalue="JUnit.JPACriteriaQueryTest" />
+        <item itemvalue="JUnit.JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" />
+        <item itemvalue="JUnit.JPACriteriaQueryTest.givenId_whenGettingListOfInvoices_thenCorrect" />
         <item itemvalue="JUnit.DefaultConverterTest" />
-        <item itemvalue="JUnit.DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" />
-        <item itemvalue="JUnit.PriceDaoTest.createPerson" />
-        <item itemvalue="JUnit.ProductDaoTest.createPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -763,44 +716,48 @@
       <workItem from="1529213184756" duration="625000" />
       <workItem from="1529215967171" duration="43174000" />
       <workItem from="1529302808316" duration="29413000" />
-      <workItem from="1529389688274" duration="35352000" />
+      <workItem from="1529389688274" duration="35453000" />
+      <workItem from="1529436502021" duration="2115000" />
+      <workItem from="1529472216146" duration="30521000" />
+      <workItem from="1529518359543" duration="3102000" />
+      <workItem from="1529558749826" duration="15873000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DefaultConverterTest_whenConvertStringToIntegerUsingDefaultConverter_thenSuccess - 2018.06.18 at 14h 21m 51s.xml">
-      <configuration name="DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest_givenId_whenGettingListOfInvoices_thenCorrect - 2018.06.20 at 16h 43m 41s.xml">
+      <configuration name="JPACriteriaQueryTest.givenId_whenGettingListOfInvoices_thenCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest_whenConvertStringToIntegerUsingDefaultConverter_thenSuccess - 2018.06.18 at 14h 22m 20s.xml">
-      <configuration name="DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest_givenId_whenGettingListOfInvoices_thenCorrect - 2018.06.20 at 16h 44m 32s.xml">
+      <configuration name="JPACriteriaQueryTest.givenId_whenGettingListOfInvoices_thenCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest_whenConvertStringToIntegerUsingDefaultConverter_thenSuccess - 2018.06.18 at 14h 25m 47s.xml">
-      <configuration name="DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest_givenAmount_whenGettingListOFInvoices_thenCorrect - 2018.06.20 at 16h 44m 53s.xml">
+      <configuration name="JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 14h 26m 31s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest_givenAmount_whenGettingListOFInvoices_thenCorrect - 2018.06.20 at 16h 45m 25s.xml">
+      <configuration name="JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest_whenConvertStringToIntegerUsingDefaultConverter_thenSuccess - 2018.06.18 at 14h 28m 19s.xml">
-      <configuration name="DefaultConverterTest.whenConvertStringToIntegerUsingDefaultConverter_thenSuccess" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest_givenAmount_whenGettingListOFInvoices_thenCorrect - 2018.06.20 at 16h 46m 11s.xml">
+      <configuration name="JPACriteriaQueryTest.givenAmount_whenGettingListOFInvoices_thenCorrect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 14h 28m 58s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest - 2018.06.20 at 16h 48m 55s.xml">
+      <configuration name="JPACriteriaQueryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 16h 57m 01s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest - 2018.06.20 at 16h 50m 40s.xml">
+      <configuration name="JPACriteriaQueryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 16h 57m 19s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest - 2018.06.20 at 17h 31m 45s.xml">
+      <configuration name="JPACriteriaQueryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 16h 57m 22s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest - 2018.06.20 at 19h 40m 25s.xml">
+      <configuration name="JPACriteriaQueryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefaultConverterTest - 2018.06.18 at 16h 57m 58s.xml">
-      <configuration name="DefaultConverterTest" configurationId="JUnit" />
+    <history-entry file="JPACriteriaQueryTest - 2018.06.20 at 19h 40m 44s.xml">
+      <configuration name="JPACriteriaQueryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342536000" />
+    <option name="totallyTimeSpent" value="394248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,7 +769,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-684" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.5194229" />
@@ -820,36 +778,36 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="1" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.24417314" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.33972126" weight="0.19829424" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.33891994" weight="0.1659919" />
       <window_info id="Structure" order="4" sideWeight="0.416" side_tool="true" weight="0.19433199" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.74250835" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.27306274" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.16759157" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.38845727" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32963374" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32841328" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.60155386" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.16426194" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7347392" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32408434" />
       <window_info id="Persistence" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.584" visible="true" weight="0.28837952" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.23751387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.584" visible="true" weight="0.32550606" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.32955465" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.66027874" side_tool="true" weight="0.3955224" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.19866815" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.66108006" side_tool="true" weight="0.15245202" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.24417314" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.35181236" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -893,73 +851,284 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java</url>
-          <line>41</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java</url>
-          <line>54</line>
+          <line>53</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>33</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>35</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>43</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>45</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>53</line>
+          <line>39</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java</url>
-          <line>55</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="94" />
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="106" />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/QueryServiceImpl.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="110" />
+      <option name="time" value="174" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((org.springframework.aop.Advisor[])((ProxyFactory)((JdkDynamicAopProxy)this.h).advised).advisorArray)[0]" custom="org.springframework.aop.framework.JdkDynamicAopProxy,org.springframework.aop.framework.ProxyFactory,java.lang.reflect.Proxy,org.springframework.aop.Advisor[]" />
+        <watch expression="predicate" />
       </configuration>
     </watches-manager>
   </component>
@@ -973,446 +1142,330 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>service.convert(new InvoiceDto(),Invoice.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.alex.rest.service.dto.InvoiceDto,com.alex.rest.domen.Invoice</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>service.canConvert(InvoiceDto.class,Invoice.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.alex.rest.service.dto.InvoiceDto,com.alex.rest.domen.Invoice</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>converters</expression-string>
+        <expression-string>conversionService.convert(orderDto, Order.class)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>((DefaultConversionService) conversionService).addConverter(new InvoiceDtoToEntityConverter());</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.springframework.core.convert.support.DefaultConversionService,com.alex.rest.service.converter.InvoiceDtoToEntityConverter</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((DefaultConversionService) conversionService).converters</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.springframework.core.convert.support.DefaultConversionService</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>conversionService</expression-string>
+        <expression-string>orderDto</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.message(&quot;jk&quot;)</expression-string>
+        <expression-string>return orderRepository.findAll()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.message()</expression-string>
+        <expression-string>orderRepository.findAll()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>exception</expression-string>
+        <expression-string>orderDto.amount</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>entityManager.createQuery(query).getResultList()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((Class)((RootImpl)r).javaType).name</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.lang.Class,org.hibernate.query.criteria.internal.path.RootImpl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>params.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>param</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="229">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/support/ZonedDateTimeToCalendarConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/converter/ConverterRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/support/DefaultConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/MyConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="381">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/TypeDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ConvertList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/Dto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoTo.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/EntityObject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/TenantService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/CollectionDtoToEntityConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="13" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/CollectionEntityToDtoConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.6.RELEASE/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/convert/support/GenericConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PriceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/TenantRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/alex/rest/repository/PriceDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/alex/rest/repository/ProductDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/exceptions/InvalidParameterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/PriceCategoryService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/PriceCategoryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Tenant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/TenantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/criteria/CriteriaBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="262" column="14" selection-start-line="262" selection-start-column="14" selection-end-line="262" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/PriceCategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/TenantResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/alex/rest/repository/JPACriteriaQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/RestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/QueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="119" selection-start-line="30" selection-start-column="119" selection-end-line="30" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/controller/InvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/SearchCriteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceDtoToEntityConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="85">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/InvoiceEntityToDtoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/InvoiceDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Price.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="203">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/InvoiceResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/PriceCategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="295">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/ProductResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/RepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductEntityToDtoConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="232">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/JoinColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1423,50 +1476,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/repository/payment/InvoiceRepository.java">
+    <entry file="das://ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/schema/alex/table/products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/domen/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="309">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/schema/alex/table/orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/OrderDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/dto/ProductDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/resources/OrderResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/InvoiceServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="24" column="98" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/config/AppConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="189" column="38" lean-forward="true" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ee06460e-8f93-4be8-b4d6-3ea34c2b8bfc/schema/alex/table/orders_products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/ProductDtoToEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderDtoToEntityConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alex/rest/service/converter/OrderEntityToDtoConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="173">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1526,7 +1622,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|rest-api</last-edited>
+          <last-edited>rest-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

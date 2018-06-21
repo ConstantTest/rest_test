@@ -13,6 +13,7 @@ public class ProductEntityToDtoConverter implements Converter<Product, ProductDt
     @Override
     public ProductDto convert(@NonNull Product source) {
         ProductDto productDto = new ProductDto();
+        productDto.setId(source.getId());
         productDto.setProductName(source.getProductName());
         return productDto;
     }

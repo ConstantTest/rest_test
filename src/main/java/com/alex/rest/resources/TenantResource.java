@@ -2,8 +2,8 @@ package com.alex.rest.resources;
 
 import com.alex.rest.domen.Tenant;
 import com.alex.rest.repository.payment.TenantRepository;
-import com.alex.rest.service.TenantService;
 import com.alex.rest.exceptions.InvalidParameterException;
+import com.alex.rest.service.impl.TenantServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,7 +26,7 @@ import java.util.Optional;
 public class TenantResource {
 
     @Autowired
-    private TenantService tenantService;
+    private TenantServiceImpl tenantService;
     @Autowired
     private TenantRepository tenantRepository;
 

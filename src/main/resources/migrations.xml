@@ -23,6 +23,19 @@
             </column>
         </createTable>
 
+        <!-- create table billing_accounts -->
+        <createTable tableName="billing_accounts">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="account_name" type="varchar(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="billing_accounts_tenant_id_fk" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
+
          <!-- create table Orders -->
         <createTable tableName="orders">
             <column name="id" type="bigint" autoIncrement="true">
@@ -30,6 +43,9 @@
             </column>
             <column name="amount" type="decimal(20,2)">
                 <constraints nullable="false"/>
+            </column>
+            <column name="billing_account_id" type="bigint">
+                <constraints foreignKeyName="orders_billing_account_id_fk" references="billing_accounts(id)" nullable="true"/>
             </column>
             <column name="tenant_id" type="bigint">
                 <constraints foreignKeyName="orders_tenant_id_fk" references="tenants(id)" nullable="true"/>
@@ -59,6 +75,7 @@
             </column>
         </createTable>
 
+        <!-- add  foreign keys to tables Orders and Products -->
         <addForeignKeyConstraint
                 baseTableName="orders_products" baseColumnNames="order_id" constraintName="fk_ord_id"
                 referencedTableName="orders" referencedColumnNames="id"/>
@@ -94,7 +111,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="price_id" type="bigint">
-                <constraints foreignKeyName="price_categories_price_id_fk" unique="true" references="prices(id)" nullable="true"/>
+                <constraints foreignKeyName="price_categories_price_id_fk" references="prices(id)" nullable="true"/>
             </column>
         </createTable>
 
@@ -106,22 +123,88 @@
             <column name="total_amount" type="decimal(20,2)">
                 <constraints nullable="false"/>
             </column>
+            <column name="billing_account_id" type="bigint">
+                <constraints foreignKeyName="invoices_billing_account_id_fk" references="billing_accounts(id)" nullable="true"/>
+            </column>
             <column name="tenant_id" type="bigint">
-                <constraints foreignKeyName="invoices_tenant_id_fk" unique="true" references="tenants(id)" nullable="true"/>
+                <constraints foreignKeyName="invoices_tenant_id_fk" references="tenants(id)" nullable="true"/>
             </column>
         </createTable>
 
-        <!-- create table States-->
-        <!--<createTable tableName="states">-->
-            <!--<column name="id" type="bigint" autoIncrement="true">-->
-            <!--<constraints primaryKey="true" nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="type" type="varchar(20)">-->
-            <!--<constraints nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="order_id" type="bigint">-->
-            <!--<constraints foreignKeyName="fk_order_id" unique="true" references="orders(id)" nullable="true"/>-->
-            <!--</column>-->
-        <!--</createTable>-->
+        <!-- create table Payments -->
+        <createTable tableName="payments">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="amount" type="decimal(20,2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="status" type="varchar(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="billing_account_id" type="bigint">
+                <constraints foreignKeyName="payments_billing_account_id_fk" references="billing_accounts(id)" nullable="true"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="payments_tenant_id_fk" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- create table Invoices_Payments -->
+        <createTable tableName="invoices_payments">
+            <column name="invoice_id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="payment_id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+        </createTable>
+
+        <!-- add  foreign keys to tables Invoices and Payments -->
+        <addForeignKeyConstraint
+                baseTableName="invoices_payments" baseColumnNames="invoice_id" constraintName="invoice_id_fk"
+                referencedTableName="invoices" referencedColumnNames="id"/>
+        <addForeignKeyConstraint
+                baseTableName="invoices_payments" baseColumnNames="payment_id" constraintName="payment_id_fk"
+                referencedTableName="payments" referencedColumnNames="id"/>
+
+        <!-- create table bill_cycle -->
+        <createTable tableName="bill_cycles">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="type" type="varchar(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="status" type="varchar(20)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="number_of_accounts" type="int">
+                <constraints nullable="true"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="bill_cycles_tenant_id_fk" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
+
+        <!-- create table services -->
+        <createTable tableName="services">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="price" type="decimal(20,2)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="product_account_id" type="bigint">
+                <constraints foreignKeyName="services_product_id_fk" references="products(id)" nullable="true"/>
+            </column>
+            <column name="billing_account_id" type="bigint">
+                <constraints foreignKeyName="services_billing_account_id_fk" references="billing_accounts(id)" nullable="true"/>
+            </column>
+            <column name="tenant_id" type="bigint">
+                <constraints foreignKeyName="services_tenant_id_fk" references="tenants(id)" nullable="true"/>
+            </column>
+        </createTable>
+
     </changeSet>
 </databaseChangeLog>

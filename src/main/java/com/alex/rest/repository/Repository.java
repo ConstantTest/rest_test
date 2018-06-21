@@ -6,7 +6,7 @@ import java.util.Collection;
 
 
 public interface Repository<T extends EntityObject> {
-    void save(T entity);
+    T save(T entity);
 
     Collection<T> findAll();
 

@@ -1,19 +1,5 @@
 package com.alex.rest.resources;
 
-import com.alex.rest.domen.Price;
-import com.alex.rest.repository.payment.PriceRepository;
-import com.alex.rest.service.PriceService;
-import com.alex.rest.exceptions.InvalidParameterException;
-import com.alex.rest.service.impl.PriceServiceImpl;
-import com.alex.rest.service.impl.ProductServiceImpl;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-import java.util.Collection;
-
 //@Path("orders/{order_id}/products/{product_id}/prices")
 //@Produces(MediaType.APPLICATION_JSON)
 //@Component

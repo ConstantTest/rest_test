@@ -25,9 +25,6 @@ public class ProductResource {
     @Autowired
     private ProductRepository productRepository;
 
-    @Autowired
-    private OrderServiceImpl orderService;
-
     // Retrieve
     @GET
     public Collection<ProductDto> findAll() throws InvalidParameterException {
@@ -48,8 +45,13 @@ public class ProductResource {
     // Create/update
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void createProduct(ProductDto productDto,@PathParam("order_id") Long orderId) {
-        productService.createProductForOrder(productDto, orderId);
+    public Response createProduct(ProductDto productDto,@PathParam("order_id") Long orderId) throws InvalidParameterException{
+        if (orderId < 0) {
+            throw new InvalidParameterException("Invalid input");
+        }
+        ProductDto createdProductDto = productService.createProductForOrder(productDto, orderId);
+
+        return Response.status(201).type(MediaType.APPLICATION_JSON_TYPE).entity(createdProductDto).build();
     }
 
     @DELETE

@@ -31,13 +31,13 @@ public class Price extends EntityObject<Long> {
     @JoinColumn(name = "product_id")
     private Product product;
 
-    @OneToOne(mappedBy = "price", cascade = CascadeType.ALL)
-    private PriceCategory category;
+//    @OneToOne(mappedBy = "price", cascade = CascadeType.ALL)
+//    private PriceCategory category;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "tenant_id")
-    @JsonIgnore
-    private Tenant tenant;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "tenant_id")
+//    @JsonIgnore
+//    private Tenant tenant;
 
     public BigDecimal getAmount() {
         return amount;
@@ -61,21 +61,5 @@ public class Price extends EntityObject<Long> {
 
     public void setProduct(Product product) {
         this.product = product;
-    }
-
-    public PriceCategory getCategory() {
-        return category;
-    }
-
-    public void setCategory(PriceCategory category) {
-        this.category = category;
-    }
-
-    public Tenant getTenant() {
-        return tenant;
-    }
-
-    public void setTenant(Tenant tenant) {
-        this.tenant = tenant;
     }
 }

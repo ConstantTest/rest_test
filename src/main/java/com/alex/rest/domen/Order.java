@@ -27,9 +27,9 @@ public class Order extends EntityObject<Long> {
 //    @JsonIgnore
 //    private Tenant tenant;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.EAGER)
-    @JoinTable(name = "orders_products", joinColumns = @JoinColumn(name = "order_id", referencedColumnName = "id"),
-    inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.LAZY)
+    @JoinTable(name = "orders_products", joinColumns = @JoinColumn(name = "order_id"),
+    inverseJoinColumns = @JoinColumn(name = "product_id"))
     private List<Product> products = new ArrayList<>();
 
     public Order() {}
@@ -50,7 +50,7 @@ public class Order extends EntityObject<Long> {
         this.products = products;
     }
 
-    public void addProduct(Product product) {
+    public void addProductToOrder(Product product) {
         products.add(product);
         product.getOrders().add(this);
     }

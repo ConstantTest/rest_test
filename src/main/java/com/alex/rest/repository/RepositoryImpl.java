@@ -3,6 +3,7 @@ package com.alex.rest.repository;
 import com.alex.rest.domen.EntityObject;
 import org.springframework.core.GenericTypeResolver;
 
+import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.CriteriaQuery;
@@ -30,8 +31,9 @@ public abstract class RepositoryImpl<T extends EntityObject> implements Reposito
     }
 
     @Override
-    public void save(T entity) {
+    public T save(T entity) {
         entityManager.persist(entity);
+        return entity;
     }
 
     @Override

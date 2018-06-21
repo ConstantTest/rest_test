@@ -1,6 +1,5 @@
 package com.alex.rest.resources;
 
-import com.alex.rest.domen.Order;
 import com.alex.rest.repository.payment.OrderRepository;
 import com.alex.rest.exceptions.InvalidParameterException;
 import com.alex.rest.service.dto.OrderDto;
@@ -40,8 +39,10 @@ public class OrderResource {
     // Create
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void createOrderDto(OrderDto orderDto) throws InvalidParameterException {
-        orderService.create(orderDto);
+    public Response createOrderDto(OrderDto orderDto) {
+        OrderDto createdOrderDto = orderService.create(orderDto);
+
+        return Response.status(201).type(MediaType.APPLICATION_JSON_TYPE).entity(createdOrderDto).build();
     }
 
     @DELETE
